@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 达芬奇密码之神秘岛 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/source.res" /d "_DEBUG" "F:\不能放弃的游戏\达芬奇密码之神秘岛\代码\source.rc"" 
+Creating temporary file "C:\DOCUME~1\Waleking\LOCALS~1\Temp\RSPB4.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/达芬奇密码之神秘岛.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\不能放弃的游戏\达芬奇密码之神秘岛\代码\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Waleking\LOCALS~1\Temp\RSPB4.tmp" 
+Creating temporary file "C:\DOCUME~1\Waleking\LOCALS~1\Temp\RSPB5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/达芬奇密码之神秘岛.pdb" /debug /machine:I386 /out:"Debug/达芬奇密码之神秘岛.exe" /pdbtype:sept 
+".\Debug\dinput.obj"
+".\Debug\image.obj"
+".\Debug\main.obj"
+".\Debug\Person.obj"
+".\Debug\wave.obj"
+".\Debug\source.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Waleking\LOCALS~1\Temp\RSPB5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.cpp
+F:\不能放弃的游戏\达芬奇密码之神秘岛\代码\main.cpp(882) : warning C4101: 'hdc' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+达芬奇密码之神秘岛.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
